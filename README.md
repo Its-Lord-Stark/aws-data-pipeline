@@ -5,6 +5,10 @@
 
 This project demonstrates a data pipeline using AWS services. It reads data from an S3 bucket, processes it using a Lambda function, and stores it in an RDS database. If the RDS database is unavailable, the data is pushed to an AWS Glue database.
 
+## Architecture
+<img width="1536" height="1024" alt="lab2" src="https://github.com/user-attachments/assets/338f76e6-53ee-4fc4-8170-8d8f9ad77da9" />
+
+
 ## Files
 - `app.py`: Python script to read data from S3 and push to RDS or Glue.
 - `Dockerfile`: Dockerfile to create a Docker image for the Python script.
